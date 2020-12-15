@@ -3,7 +3,7 @@ import { useSprings } from "react-spring/hooks";
 import { useGesture } from "react-with-gesture";
 
 import Card from "./Card";
-import data from "../data.js";
+
 import PIC1 from "../Static/img1.jpg";
 import PIC2 from "../Static/img2.jpg";
 import PIC3 from "../Static/img3.jpg";
@@ -91,7 +91,6 @@ function Deck() {
       rot={rot}
       scale={scale}
       trans={trans}
-      data={data}
       pictures={pictures}
       bind={bind}
     />
