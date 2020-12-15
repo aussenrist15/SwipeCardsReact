@@ -39,7 +39,7 @@ const trans = (r, s) =>
 function Deck() {
   const [gone] = useState(() => new Set());
 
-  const [props, set] = useSprings(data.length, (i) => ({
+  const [props, set] = useSprings(pictures.length, (i) => ({
     ...to(i),
     from: from(i),
   }));
@@ -77,7 +77,7 @@ function Deck() {
         };
       });
 
-      if (!down && gone.size === data.length)
+      if (!down && gone.size === pictures.length)
         setTimeout(() => gone.clear() || set((i) => to(i)), 600);
     }
   );

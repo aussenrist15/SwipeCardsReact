@@ -1,3 +1,4 @@
+import React from "react";
 export default [
   {
     pics: [
@@ -18,9 +19,7 @@ export default [
       "On the first date I will carve our initials in a tree. It's the most romantic way to let you know I have a knife.",
   },
   {
-    pics: [
-      "https://images.unsplash.com/photo-1584287981937-67ab60932edf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-    ],
+    pics: <img src="./Static/img1.jpg" />,
     name: "Savannah",
     age: 18,
     distance: "1 mile away",

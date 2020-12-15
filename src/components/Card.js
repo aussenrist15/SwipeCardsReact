@@ -1,10 +1,8 @@
 import React from "react";
 import { string, number, array } from "prop-types";
 import { animated, interpolate } from "react-spring/hooks";
-import Carousel from "nuka-carousel";
 
-const Card = ({ i, x, y, rot, scale, trans, bind, data, pictures }) => {
-  const { name, age, distance, text } = data[i];
+const Card = ({ i, x, y, rot, scale, trans, bind, pictures }) => {
   const { pic } = pictures[i];
 
   return (
