@@ -4,8 +4,23 @@ import { useGesture } from "react-with-gesture";
 
 import Card from "./Card";
 import data from "../data.js";
+import PIC1 from "../Static/img1.jpg";
+import PIC2 from "../Static/img2.jpg";
+import PIC3 from "../Static/img3.jpg";
+import PIC4 from "../Static/img4.jpg";
+import PIC5 from "../Static/img5.jpg";
+import PIC6 from "../Static/img6.jpg";
 
 import "../styles/Deck.css";
+
+const pictures = [
+  { pic: PIC1 },
+  { pic: PIC2 },
+  { pic: PIC3 },
+  { pic: PIC4 },
+  { pic: PIC5 },
+  { pic: PIC6 },
+];
 
 const to = (i) => ({
   x: 0,
@@ -77,6 +92,7 @@ function Deck() {
       scale={scale}
       trans={trans}
       data={data}
+      pictures={pictures}
       bind={bind}
     />
   ));

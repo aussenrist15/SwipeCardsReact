@@ -53,9 +53,14 @@ body {
 }
 
 img {
-  height: 380px;
+  width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 button[aria-label="previous"],
