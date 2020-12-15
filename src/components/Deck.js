@@ -14,12 +14,12 @@ import PIC6 from "../Static/img6.jpg";
 import "../styles/Deck.css";
 
 const pictures = [
-  { pic: PIC1 },
-  { pic: PIC2 },
-  { pic: PIC3 },
-  { pic: PIC4 },
-  { pic: PIC5 },
   { pic: PIC6 },
+  { pic: PIC5 },
+  { pic: PIC4 },
+  { pic: PIC3 },
+  { pic: PIC2 },
+  { pic: PIC1 },
 ];
 
 const to = (i) => ({
